@@ -1,0 +1,17 @@
+.dropdown {
+  height: var(--medium-height);
+  padding: 0 var(--medium-space);
+  border: var(--medium-border-width) solid var(--grey-border-color);
+  border-radius: var(--border-radius);
+  box-shadow: var(--default-shadow);
+  color: var(--secondary-text-color);
+  outline: none;
+}
+
+.dropdown option {
+  height: var(--medium-height);
+}
+
+.dropdown:focus {
+  box-shadow: var(--focus-shadow);
+}

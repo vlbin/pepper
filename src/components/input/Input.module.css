@@ -1,0 +1,25 @@
+input:not([type='checkbox']) {
+  box-sizing: border-box;
+  padding: 0 var(--medium-space);
+  margin: 0;
+  outline: none;
+  height: var(--medium-height);
+  line-height: var(--medium-height);
+  border-radius: var(--border-radius);
+  box-shadow: var(--default-shadow);
+  border: var(--default-border);
+  transition: box-shadow 0.2s;
+  color: var(--secondary-text-color);
+}
+
+input:disabled {
+  background-color: var(--secondary-color);
+  cursor: not-allowed;
+}
+
+input:not([type='checkbox']):focus {
+  box-shadow: var(--focus-shadow);
+}
+
+input[type='checkbox'] {
+}

@@ -1,0 +1,106 @@
+:root {
+  /* colors */
+  --green-1: #8cd99a;
+  --green-2: #40c057;
+  --green-3: #339946;
+  --green-4: #267334;
+  --green-5: #194d23;
+
+  --red-1: #e58080;
+  --red-2: #d42b2b;
+  --red-3: #a92323;
+  --red-4: #7f1a1a;
+
+  --blue-1: #8fbfe3;
+  --blue-2: #2f42d0;
+  --blue-3: #2635a6;
+  --blue-4: #1c287d;
+
+  --yellow-1: #ffec99;
+  --yellow-2: #fcc419;
+  --yellow-3: #f59f00;
+  --yellow-4: #e67700;
+
+  --grey-0: #f8f9fa;
+  --grey-1: #f1f3f5;
+  --grey-2: #dee2e6;
+  --grey-3: #adb5bd;
+  --grey-4: #343a40;
+
+  --white: #ffffff;
+  --black: #000000;
+
+  --primary-color: var(--blue-2);
+  --primary-hover-color: var(--blue-3);
+  --primary-text-color: var(--white);
+
+  --secondary-color: var(--grey-2);
+  --secondary-hover-color: var(--grey-3);
+  --secondary-text-color: var(--grey-4);
+
+  --grey-border-color: var(--grey-2);
+  --focus-shadow-color: rgba(66, 72, 245, 0.5);
+
+  --positive-color: var(--green-2);
+  --positive-background-color: var(--green-1);
+  --positive-text-color: var(--green-5);
+
+  --warning-color: var(--yellow-2);
+  --warning-background-color: var(--yellow-1);
+  --warning-text-color: var(--yellow-4);
+
+  --negative-color: var(--red-2);
+  --negative-background-color: var(--red-1);
+  --negative-text-color: var(--red-4);
+
+  --info-color: var(--blue-2);
+  --info-background-color: var(--blue-1);
+  --info-text-color: var(--blue-4);
+
+  --checkbox-checkmark-color: var(--white);
+  /*dimensions*/
+  --base-spacing-unit: 4px;
+
+  --small-space: var(--base-spacing-unit);
+  --medium-space: calc(2 * var(--small-space));
+  --large-space: calc(2 * var(--medium-space));
+
+  --border-radius: var(--small-space);
+
+  --small-height: calc(8 * var(--small-space));
+  --medium-height: calc(10 * var(--small-space));
+  --large-height: calc(12 * var(--small-space));
+
+  --default-shadow: rgba(50, 50, 93, 0.2) 0px 1px 3px -1px,
+    rgba(0, 0, 0, 0.25) 0px 1px 3px -1px;
+
+  --large-shadow: rgba(50, 50, 93, 0.15) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.2) 0px 2px 6px -1px;
+
+  --hover-shadow: var(--large-shadow);
+
+  --small-border-width: 1px;
+  --medium-border-width: calc(2 * var(--small-border-width));
+  --large-border-width: calc(2 * var(--medium-border-width));
+  --left-border-width: calc(2 * var(--large-border-width));
+
+  --default-border: var(--small-border-width) solid var(--grey-border-color);
+
+  --input-border-width: var(--small-border-width);
+  --focus-border-width: var(--large-border-width);
+
+  --input-border: var(--input-border-width) solid var(var(--grey-border-color));
+  --focus-shadow: 0 0 0 var(--large-border-width) var(--focus-shadow-color);
+
+  /* typography */
+
+  --small-text-size: 12px;
+  --medium-text-size: 16px;
+  --large-text-size: 20px;
+  --heading-text-size: 24px;
+}
+
+body,
+body > * {
+  color: var(--secondary-text-color);
+}
